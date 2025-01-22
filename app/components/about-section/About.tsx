@@ -33,23 +33,31 @@ export default function About() {
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            My passion lies in creating strong business solutions that aid
-            business growth. Whether it&apos;s a website to boost brand
-            publicity or software solutions that streamline otherwise manual
-            processes, I love taking brands from point A to the their dreamy
-            point B and iteratively improve as time goes on.
+           Welcome to Vieta Academy,
+           As a forward-thinking EdTech company, we are committed to empowering students with the knowledge and skills they need to succeed in an ever-evolving world. Our mission is to make quality education accessible, engaging, and impactful for learners everywhere.
+           Our Journey
+           We are starting our exciting venture by offering specialized preparation for the prestigious AMC (American Mathematics Competitions) series, including AMC 8, 10, and 12. These programs are designed to nurture mathematical curiosity, build problem-solving skills, and help students excel in competitive mathematics.
+
+
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            From writing my first lines of code back in late 2019 to this point
-            I have continually refined my development skills overtime picking up
-            UI/UX design on the way & solving complex challenges increasing the
-            complexity as time goes by to ensure improvement.
+            Our Vision for the Future
+            At Vieta Academy, our vision goes beyond mathematics. As we grow, we plan to expand our offerings to include:
+            AP Courses: Comprehensive courses designed to help students excel in Advanced Placement exams and gain college credits.
+            Technology Courses: Cutting-edge programs in web development, Python, Java, and more to prepare students for careers in the tech-driven world.
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
-            Each challenge is unique so I ensure that I learn and grow through
-            each one ensuring that I not only put in my best but also deliver
-            solutions that businesses are proud to call their own. Wanna learn
-            more? Here&apos;s <br className="hidden md:block" />
+Why Choose Vieta Academy?
+
+Expert-Led Instruction: Learn from passionate educators and subject-matter experts dedicated to student success.
+
+Interactive Learning: Our engaging content and innovative teaching methods make learning enjoyable and effective.
+
+Comprehensive Resources: From detailed study materials to practice tests, we provide everything students need to achieve their goals.
+
+Flexible Programs: Learn at your own pace with our customizable and on-demand courses.
+
+Join us at Vieta Academy as we revolutionize education and help shape the problem-solvers, innovators, and leaders of tomorrow.<br className="hidden md:block" />
             <Link
               className="underline"
               href={
