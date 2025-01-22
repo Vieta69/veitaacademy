@@ -73,19 +73,14 @@ export default function Hero() {
           transition={{ duration: 0.1, ease: "easeOut" }}
         >
           <p className="text-white/60 text-xl smm:text-2xl mb-3 smm:mb-0 lg:text-3xl col-span-6">
-            Hey, there
+            Hey Guys!
           </p>
           <motion.div
             animate={handWaveAnimation}
             style={{ transformOrigin: "bottom right" }}
             className="col-span-3"
           >
-            <Image
-              src="/hand-wave.svg"
-              width={30}
-              height={30}
-              alt="hand-waving"
-            />
+          
           </motion.div>
         </motion.div>
         <motion.h1
@@ -93,11 +88,11 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={animateIn1}
         >
-          <p className="text-white/60 inline">I&apos;m </p>
+          <p className="text-white/60 inline"></p>
           <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-            Adeola Badero
+            Vieta Academy
           </span>
-          <p>a Software Engineer</p>
+          <p>Connecting Brillian Minds</p>
         </motion.h1>
 
         <motion.p
@@ -110,23 +105,7 @@ export default function Hero() {
       </div>
 
       {/* IMAGE */}
-      <div data-blobity-tooltip="Soft man">
-        <motion.div
-          ref={imgRef}
-          style={{ rotate }}
-          className="h-image flex items-center w-[310px] h-[380px] xl:w-[390px] xl:h-[470px] justify-center relative"
-          initial={{ opacity: 0 }}
-          animate={animateIn1}
-        >
-          <Image
-            src="/transparent-ade-min.png"
-            priority
-            fill
-            alt="Ade's picture"
-            className="bg-image-radial px-10 pt-20"
-          />
-        </motion.div>
-      </div>
+    
     </section>
   );
 }
