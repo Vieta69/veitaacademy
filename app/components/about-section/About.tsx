@@ -34,7 +34,6 @@ export default function About() {
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
           <p>As a forward-thinking EdTech company, we are committed to empowering students with the knowledge and skills they need to succeed in an ever-evolving world. Our mission is to make quality education accessible, engaging, and impactful for learners everywhere.</p>
-          <p><br></p>
           <h1> <b>Our Journey</b></h1>
            We are starting our exciting venture by offering specialized preparation for the prestigious AMC (American Mathematics Competitions) series, including AMC 8, 10, and 12. These programs are designed to nurture mathematical curiosity, build problem-solving skills, and help students excel in competitive mathematics.
 
