@@ -27,24 +27,26 @@ export default function About() {
         charSpace={"mr-[0.001em]"}
         className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80`}
       >
-        I amplify brand voices through the web
+        Welcome to Vieta Academy,
       </AnimatedTitle>
 
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-           Welcome to Vieta Academy,
-           As a forward-thinking EdTech company, we are committed to empowering students with the knowledge and skills they need to succeed in an ever-evolving world. Our mission is to make quality education accessible, engaging, and impactful for learners everywhere.
-           Our Journey
+          <p>As a forward-thinking EdTech company, we are committed to empowering students with the knowledge and skills they need to succeed in an ever-evolving world. Our mission is to make quality education accessible, engaging, and impactful for learners everywhere.</p>
+          <h2>Our Journey</h2>
            We are starting our exciting venture by offering specialized preparation for the prestigious AMC (American Mathematics Competitions) series, including AMC 8, 10, and 12. These programs are designed to nurture mathematical curiosity, build problem-solving skills, and help students excel in competitive mathematics.
 
 
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            Our Vision for the Future
-            At Vieta Academy, our vision goes beyond mathematics. As we grow, we plan to expand our offerings to include:
-            AP Courses: Comprehensive courses designed to help students excel in Advanced Placement exams and gain college credits.
-            Technology Courses: Cutting-edge programs in web development, Python, Java, and more to prepare students for careers in the tech-driven world.
+            <h1>Our Vision for the Future</h1>
+            <p>At Vieta Academy, our vision goes beyond mathematics. As we grow, we plan to expand our offerings to include:
+            </p>
+            <ul>
+              <li>AP Courses: Comprehensive courses designed to help students excel in Advanced Placement exams and gain college credits.</li>
+              <li>Technology Courses: Cutting-edge programs in web development, Python, Java, and more to prepare students for careers in the tech-driven world.</li>
+            </ul>
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
 Why Choose Vieta Academy?
