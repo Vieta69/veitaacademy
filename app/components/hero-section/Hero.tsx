@@ -92,7 +92,7 @@ export default function Hero() {
           <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
             Vieta Academy
           </span>
-          <p>Connecting Brillian Minds</p>
+          <p>Connecting</p>
         </motion.h1>
 
         <motion.p
