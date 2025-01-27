@@ -120,7 +120,7 @@ export default function About() {
 
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
              <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-             <b>What's Next?</b>
+             <b>Future Vision</b>
             </AnimatedBody>
             <p>
               At Vieta Academy, our vision goes beyond mathematics. As we grow, we plan to expand ourselves  to include:
