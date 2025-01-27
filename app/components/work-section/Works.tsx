@@ -6,7 +6,7 @@ import { useView } from "@/contexts/ViewContext";
 // @ts-ignore
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
-import Timeline from "./Timeline";
+// import Timeline from "./Timeline";
 
 export default function Works() {
   const { setSectionInView } = useView();
@@ -70,7 +70,7 @@ export default function Works() {
         />
       ))}
 
-      <Timeline />
+{/*       <Timeline /> */}
     </section>
   );
 }
