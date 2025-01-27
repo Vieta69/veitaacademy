@@ -27,12 +27,14 @@ export default function FolioCard({
   });
 
   return (
+    // Wrapping div with conditionals and inView animation applied
     <div
       ref={ref}
       className={`w-full rounded-[20px] std-backdrop-blur bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] grid grid-cols-1 items-start lg:grid-cols-12 xl:flex gap-5 xl:gap-10 p-6 duration-700 ${
         inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
       }`}
     >
+      {/* Image section */}
       {img && (
         <Image
           src={img}
@@ -42,7 +44,9 @@ export default function FolioCard({
           className="rounded-[10px] w-full lg:col-span-5"
         />
       )}
+      {/* Main text section */}
       <div className={`flex flex-col gap-4 ${img ? 'lg:col-span-7' : ''}`}>
+        {/* Title and Links */}
         <div className="flex items-center justify-between">
           <h2 className="text-3xl sm:text-4xl xl:text-5xl font-bold">
             {title}
@@ -52,34 +56,29 @@ export default function FolioCard({
               href={liveLink}
               className="rounded-full bg-icon-radial p-3 hover:bg-red"
               target="_blank"
-              aria-label="View Github Repo"
-              data-blobity-radius="34"
-              data-blobity-magnetic="true"
+              aria-label="View Live Demo"
             >
               <Icon icon="line-md:external-link-rounded" />
             </Link>
             <Link
-              href={`${gitLink ? gitLink : "#"}`}
+              href={gitLink ?? "#"}
               className="rounded-full bg-icon-radial p-3"
               target="_blank"
-              aria-label="View Live Demo"
-              data-blobity-radius="34"
-              data-blobity-magnetic="true"
-              {...(!gitLink && {
-                "data-blobity-tooltip": "Privately owned by Offset",
-              })}
+              aria-label="View Github Repo"
             >
               <Icon
                 icon="mingcute:github-line"
-                className={`${!gitLink && "opacity-30"}`}
+                className={`${!gitLink ? "opacity-30" : ""}`}
               />
             </Link>
           </div>
         </div>
+        {/* About */}
         <p className="text-base text-white/70">{about}</p>
+        {/* Stack Tags */}
         <div className="flex gap-3 md:gap-4 flex-wrap">
           {stack.map((tech, index) => (
-            <Tag key={index}>{tech}</Tag> {/* Use Tag component */}
+            <Tag key={index}>{tech}</Tag> // Use Tag component
           ))}
         </div>
       </div>
