@@ -102,8 +102,8 @@ export default function About() {
       </AnimatedTitle>
 
       <div>
-        <div className="text-white/60 text-base md:text-xl leading-8 mb-8">
-          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl mb-8">
+        <div className="text-white/60 text-base md:text-xl leading-8">
+          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-2xl mb-8">
             <p>
               As a forward-thinking EdTech company, we are committed to empowering students with the knowledge and skills they need to succeed in an ever-evolving world. Our mission is to make quality education accessible, engaging, and impactful for learners everywhere.
             </p>
@@ -134,13 +134,15 @@ export default function About() {
           <AnimatedBody>
             <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb 8 text-3xl md:text-4xl">
               <b>Why Choose Vieta Academy?</b>
-            </AnimatedBody>
+            </AnimatedBody> <p>
             <ul className="list-disc pl-6">
               <li><strong>Expert-Led Instruction:</strong> Learn from passionate educators and subject-matter experts dedicated to student success.</li>
               <li><strong>Interactive Learning:</strong> Our engaging content and innovative teaching methods make learning enjoyable and effective.</li>
               <li><strong>Comprehensive Resources:</strong> From detailed study materials to practice tests, we provide everything students need to achieve their goals.</li>
               <li><strong>Flexible Programs:</strong> Learn at your own pace with our customizable and on-demand courses.</li>
             </ul>
+
+                   </p>
             <p>
               Join us at Vieta Academy as we revolutionize education and help shape the problem-solvers, innovators, and leaders of tomorrow.
             </p>
