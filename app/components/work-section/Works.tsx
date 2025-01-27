@@ -61,7 +61,7 @@ export default function Works() {
       {works.map((work, index) => (
         <FolioCard
           key={index}
-          img={work.img}
+{/*           img={work.img} */}
           title={work.title}
           gitLink={work.gitLink}
           liveLink={work.liveLink}
