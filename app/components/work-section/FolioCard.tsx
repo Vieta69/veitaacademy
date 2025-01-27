@@ -31,7 +31,7 @@ export default function FolioCard({
       ref={ref}
       className={`w-full rounded-[20px] std-backdrop-blur bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] grid grid-cols-1 items-start lg:grid-cols-12 xl:flex gap-5 xl:gap-10 p-6 duration-700 ${
         inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-      } ${!img && 'lg:w-auto xl:w-auto'}`} // Conditional width if no image
+      }`}
     >
       {img && (
         <Image
