@@ -102,15 +102,15 @@ export default function About() {
       </AnimatedTitle>
 
       <div>
-        <div className="text-white/60 text-base md:text-xl leading-8">
+        <div className="text-white/60 text-base md:text-xl leading-8 mb-8">
           <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl mb-8">
             <p>
               As a forward-thinking EdTech company, we are committed to empowering students with the knowledge and skills they need to succeed in an ever-evolving world. Our mission is to make quality education accessible, engaging, and impactful for learners everywhere.
             </p>
           </AnimatedBody>
 
-          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl">
-            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb-8">
+          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl" mb-8>
+            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb-8 text-3xl md:text-4xl">
               <b>Our Journey</b>
             </AnimatedBody>
             <p>
@@ -119,7 +119,7 @@ export default function About() {
           </AnimatedBody>
 
           <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl">
-            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb-8">
+            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb-8 text-3xl md:text-4xl">
               <b>Future Vision</b>
             </AnimatedBody>
             <p>
@@ -132,7 +132,7 @@ export default function About() {
           </AnimatedBody>
 
           <AnimatedBody>
-            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
+            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb 8 text-3xl md:text-4xl">
               <b>Why Choose Vieta Academy?</b>
             </AnimatedBody>
             <ul className="list-disc pl-6">
