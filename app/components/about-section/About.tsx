@@ -132,7 +132,7 @@ export default function About() {
           </AnimatedBody>
 
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
-            <AnimatedBody className="font-bold antialiased text-xl md:text-2xl mb-2">
+            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]>
              <b>Why Choose Vieta Academy?</b>
             </AnimatedBody>
             <ul className="list-disc pl-6">
