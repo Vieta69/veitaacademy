@@ -92,9 +92,9 @@ export default function About() {
   }, [inView, setSectionInView]);
 
   return (
-    <section ref={ref} className="pt-24 md:pt-[150px]" id="about">
+    <section ref={ref} className="pt-24 md:pt-[100px]" id="about">
       <AnimatedTitle
-        wordSpace={"mr-[14px]"}
+        wordSpace={"mr-[12px]"}
         charSpace={"mr-[0.001em]"}
         className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80`}
       >
