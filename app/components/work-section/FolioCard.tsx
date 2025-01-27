@@ -1,3 +1,8 @@
+import Image from "next/image"; // Import Image from next/image
+import Link from "next/link"; // Import Link from next/link
+import { Icon } from "@iconify/react"; // Import Icon from iconify/react
+import { Tag } from "@/components/ui/tag"; // Adjust the path to your Tag component
+
 export default function FolioCard({
   title,
   img,
@@ -72,7 +77,7 @@ export default function FolioCard({
         <p className="text-base text-white/70">{about}</p>
         <div className="flex gap-3 md:gap-4 flex-wrap">
           {stack.map((tech, index) => (
-            <Tag key={index}>{tech}</Tag>
+            <Tag key={index}>{tech}</Tag> {/* Use Tag component */}
           ))}
         </div>
       </div>
