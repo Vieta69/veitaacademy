@@ -96,31 +96,31 @@ export default function About() {
       <AnimatedTitle
         wordSpace={"mr-[12px]"}
         charSpace={"mr-[0.001em]"}
-        className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80`}
+        className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80 mb-8`}
       >
         Welcome to Vieta Academy
       </AnimatedTitle>
 
       <div>
         <div className="text-white/60 text-base md:text-xl leading-8">
-          <AnimatedBody className="leading-[34px] md:leading-[39px]">
+          <AnimatedBody className="leading-[34px] md:leading-[39px] text-lg md:text-xl">
             <p>
               As a forward-thinking EdTech company, we are committed to empowering students with the knowledge and skills they need to succeed in an ever-evolving world. Our mission is to make quality education accessible, engaging, and impactful for learners everywhere.
             </p>
           </AnimatedBody>
 
-          <AnimatedBody className="leading-[34px] md:leading-[39px]">
-              <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-             <b>Our Journey</b>
+          <AnimatedBody className="leading-[34px] md:leading-[39px] text-lg md:text-xl">
+            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
+              <b>Our Journey</b>
             </AnimatedBody>
             <p>
               We are starting our exciting venture by offering specialized preparation for the prestigious AMC (American Mathematics Competitions) series, including AMC 8, 10, and 12. These programs are designed to nurture mathematical curiosity, build problem-solving skills, and help students excel in competitive mathematics.
             </p>
           </AnimatedBody>
 
-          <AnimatedBody className="leading-[34px] md:leading-[39px]">
-             <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-             <b>Future Vision</b>
+          <AnimatedBody className="leading-[34px] md:leading-[39px] text-lg md:text-xl">
+            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
+              <b>Future Vision</b>
             </AnimatedBody>
             <p>
               At Vieta Academy, our vision goes beyond mathematics. As we grow, we plan to expand ourselves  to include:
@@ -133,7 +133,7 @@ export default function About() {
 
           <AnimatedBody>
             <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-             <b>Why Choose Vieta Academy?</b>
+              <b>Why Choose Vieta Academy?</b>
             </AnimatedBody>
             <ul className="list-disc pl-6">
               <li><strong>Expert-Led Instruction:</strong> Learn from passionate educators and subject-matter experts dedicated to student success.</li>
@@ -146,47 +146,48 @@ export default function About() {
             </p>
           </AnimatedBody>
         </div>
-    
-
-{/*         <div className="grid grid-cols-1 gap-4">
-          <div>
-            <AnimatedTitle
-              wordSpace={"mr-[0.5ch]"}
-              charSpace={"mr-[0.001em]"}
-              className="font-bold antialiased text-xl md:text-2xl mb-2"
-            >
-              Details 1
-            </AnimatedTitle>
-            <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Doraemon
-            </AnimatedBody>
-          </div>
-          <div>
-            <AnimatedTitle
-              wordSpace={"mr-[0.5ch]"}
-              charSpace={"mr-[0.001em]"}
-              className="font-bold antialiased text-xl md:text-2xl mb-2"
-            >
-              Details II
-            </AnimatedTitle>
-            <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-             Pokemon
-            </AnimatedBody>
-          </div>
-          <div>
-            <AnimatedTitle
-              wordSpace={"mr-[0.5ch]"}
-              charSpace={"mr-[0.001em]"}
-              className="font-bold antialiased text-xl md:text-2xl mb-2"
-            >
-              Details III
-            </AnimatedTitle>
-            <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Clove
-            </AnimatedBody>
-          </div>
-        </div> */}
       </div>
+
+      {/* 
+      <div className="grid grid-cols-1 gap-4">
+        <div>
+          <AnimatedTitle
+            wordSpace={"mr-[0.5ch]"}
+            charSpace={"mr-[0.001em]"}
+            className="font-bold antialiased text-xl md:text-2xl mb-2"
+          >
+            Details 1
+          </AnimatedTitle>
+          <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
+            Doraemon
+          </AnimatedBody>
+        </div>
+        <div>
+          <AnimatedTitle
+            wordSpace={"mr-[0.5ch]"}
+            charSpace={"mr-[0.001em]"}
+            className="font-bold antialiased text-xl md:text-2xl mb-2"
+          >
+            Details II
+          </AnimatedTitle>
+          <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
+             Pokemon
+          </AnimatedBody>
+        </div>
+        <div>
+          <AnimatedTitle
+            wordSpace={"mr-[0.5ch]"}
+            charSpace={"mr-[0.001em]"}
+            className="font-bold antialiased text-xl md:text-2xl mb-2"
+          >
+            Details III
+          </AnimatedTitle>
+          <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
+            Clove
+          </AnimatedBody>
+        </div>
+      </div> 
+      */}
     </section>
   );
 }
