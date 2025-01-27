@@ -110,7 +110,7 @@ export default function About() {
           </AnimatedBody>
 
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-              <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
+              <AnimatedBody className="font-bold antialiased text-xl md:text-2xl mb-2">
              <b>Our Journey</b>
             </AnimatedBody>
             <p>
@@ -119,7 +119,7 @@ export default function About() {
           </AnimatedBody>
 
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
+             <AnimatedBody className="font-bold antialiased text-xl md:text-2xl mb-2">
              <b>Future Vision</b>
             </AnimatedBody>
             <p>
@@ -132,7 +132,7 @@ export default function About() {
           </AnimatedBody>
 
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
-            <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
+            <AnimatedBody className="font-bold antialiased text-xl md:text-2xl mb-2">
              <b>Why Choose Vieta Academy?</b>
             </AnimatedBody>
             <ul className="list-disc pl-6">
