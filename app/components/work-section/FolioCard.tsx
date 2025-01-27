@@ -1,7 +1,9 @@
-import Image from "next/image"; // Import Image from next/image
-import Link from "next/link"; // Import Link from next/link
-import { Icon } from "@iconify/react"; // Import Icon from iconify/react
-import { Tag } from "@/components/ui/tag"; // Adjust the path to your Tag component
+// Make sure these imports are added at the top
+import Image from 'next/image'; // Import Image from next/image
+import Link from 'next/link'; // Import Link from next/link
+import { Icon } from 'lucide-react'; // Import Icon
+import { Tag } from '@/components/ui/tag'; // Make sure to adjust the import path for Tag
+import { useInView } from 'react-intersection-observer';
 
 export default function FolioCard({
   title,
