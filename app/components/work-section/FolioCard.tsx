@@ -40,7 +40,7 @@ export default function FolioCard({
           className="rounded-[10px] w-full lg:col-span-5"
         />
       )}
-      <div className={`flex flex-col gap-4 ${img ? 'lg:col-span-7' : ''}`}> {/* Adjust grid span if no image */}
+      <div className={`flex flex-col gap-4 ${img ? 'lg:col-span-7' : ''}`}>
         <div className="flex items-center justify-between">
           <h2 className="text-3xl sm:text-4xl xl:text-5xl font-bold">
             {title}
@@ -84,6 +84,7 @@ export default function FolioCard({
     </div>
   );
 }
+
 
 
 
