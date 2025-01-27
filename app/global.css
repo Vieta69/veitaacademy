@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("/beautiful-shot-waterfall-forest.jpg");
+  color: white;
+  overscroll-behavior: none;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #333;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 5px;
+}
+
+.h-image {
+  -webkit-mask-image: url("../public/black.png");
+  -webkit-mask-position: center;
+  -webkit-mask-size: 390px 390px;
+  -webkit-mask-repeat: no-repeat;
+  z-index: -10;
+}
+
+@media (max-width: 1280px) {
+  .h-image {
+    -webkit-mask-size: 300px 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .h-image {
+    -webkit-mask-size: 300px 300px;
+  }
+}
+
+@media (max-width: 415px) {
+  .h-image {
+    -webkit-mask-size: 270px 270px;
+  }
+}
+
+.card {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.custom-toast {
+  background-color: #081e32 !important;
+}
+
+.custom-toast .Toastify__progress-bar {
+  background-color: #548fba;
+}
+
+.std-backdrop-blur {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
