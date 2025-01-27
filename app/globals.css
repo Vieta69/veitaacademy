@@ -9,9 +9,9 @@
 body {
 /* background: #08233b; */
 
-  background-img: url("https://img.freepik.com/free-photo/beautiful-shot-waterfall-forest_181624-27884.jpg?uid=R184723252&ga=GA1.1.1442796167.1737971133&semt=ais_hybrid")
+  background-img: url("../app/beautiful-shot-waterfall-forest.jpg")
 
-  background: #320d1c;
+/*   background: #320d1c; */
   color: white;
   overscroll-behavior: none;
 
