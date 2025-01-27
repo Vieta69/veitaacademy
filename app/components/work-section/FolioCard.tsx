@@ -1,14 +1,3 @@
-"use client";
-import { Icon } from "@iconify/react/dist/iconify.js";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-import Tag from "./Tag";
-
-// @ts-ignore
-import "intersection-observer";
-import { useInView } from "react-intersection-observer";
-
 export default function FolioCard({
   title,
   img,
@@ -17,7 +6,7 @@ export default function FolioCard({
   about,
   stack,
 }: {
-  img?: string; // Make img optional
+  img?: string;  // Make img optional
   title: string;
   gitLink?: string;
   liveLink: string;
@@ -35,9 +24,9 @@ export default function FolioCard({
       ref={ref}
       className={`w-full rounded-[20px] std-backdrop-blur bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] grid grid-cols-1 items-start lg:grid-cols-12 xl:flex gap-5 xl:gap-10 p-6 duration-700 ${
         inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-      }`}
+      } ${!img && 'lg:w-auto xl:w-auto'}`} // Conditional width if no image
     >
-      {img && ( // Conditionally render the Image component if img is provided
+      {img && (
         <Image
           src={img}
           width={420}
@@ -46,7 +35,7 @@ export default function FolioCard({
           className="rounded-[10px] w-full lg:col-span-5"
         />
       )}
-      <div className="flex flex-col gap-4 lg:col-span-7">
+      <div className={`flex flex-col gap-4 ${img ? 'lg:col-span-7' : ''}`}> {/* Adjust grid span if no image */}
         <div className="flex items-center justify-between">
           <h2 className="text-3xl sm:text-4xl xl:text-5xl font-bold">
             {title}
