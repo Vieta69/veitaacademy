@@ -109,7 +109,7 @@ export default function About() {
             </p>
           </AnimatedBody>
 
-          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl" mb-8>
+          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl mb-8">
             <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb-8 text-3xl md:text-4xl">
               <b>Our Journey</b>
             </AnimatedBody>
