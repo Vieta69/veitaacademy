@@ -101,16 +101,16 @@ export default function About() {
         Welcome to Vieta Academy
       </AnimatedTitle>
 
-      <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
-        <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
-          <AnimatedBody className="leading-[34px] md:leading-[39px]">
+      <div>
+        <div>
+          <AnimatedBody>
             <p>
               As a forward-thinking EdTech company, we are committed to empowering students with the knowledge and skills they need to succeed in an ever-evolving world. Our mission is to make quality education accessible, engaging, and impactful for learners everywhere.
             </p>
           </AnimatedBody>
 
-          <AnimatedBody className="leading-[34px] md:leading-[39px]">
-              <AnimatedBody className="font-bold antialiased text-xl md:text-2xl mb-2">
+          <AnimatedBody>
+              <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
              <b>Our Journey</b>
             </AnimatedBody>
             <p>
@@ -118,8 +118,8 @@ export default function About() {
             </p>
           </AnimatedBody>
 
-          <AnimatedBody className="leading-[34px] md:leading-[39px]">
-             <AnimatedBody className="font-bold antialiased text-xl md:text-2xl mb-2">
+          <AnimatedBody>
+             <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
              <b>Future Vision</b>
             </AnimatedBody>
             <p>
@@ -131,7 +131,7 @@ export default function About() {
             </ul>
           </AnimatedBody>
 
-          <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
+          <AnimatedBody>
             <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
              <b>Why Choose Vieta Academy?</b>
             </AnimatedBody>
@@ -148,7 +148,7 @@ export default function About() {
         </div>
     
 
-        <div className="grid grid-cols-1 gap-4">
+{/*         <div className="grid grid-cols-1 gap-4">
           <div>
             <AnimatedTitle
               wordSpace={"mr-[0.5ch]"}
@@ -185,7 +185,7 @@ export default function About() {
               Clove
             </AnimatedBody>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
