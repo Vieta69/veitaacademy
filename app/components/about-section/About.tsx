@@ -102,7 +102,7 @@ export default function About() {
       </AnimatedTitle>
 
       <div>
-        <div>
+        <div className="text-white/60 text-base md:text-xl leading-8">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
             <p>
               As a forward-thinking EdTech company, we are committed to empowering students with the knowledge and skills they need to succeed in an ever-evolving world. Our mission is to make quality education accessible, engaging, and impactful for learners everywhere.
