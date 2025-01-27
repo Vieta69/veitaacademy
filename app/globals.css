@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("/beautiful-shot-waterfall-forest.jpg");
+  background-image: url("../app/beautiful-shot-waterfall-forest.jpg");
   color: white;
   overscroll-behavior: none;
 }
