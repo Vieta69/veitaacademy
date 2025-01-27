@@ -129,7 +129,7 @@ export default function Hero() {
     opacity: [0, 1],
     y: ["1rem", "0px"],
     transition: {
-      delay: 1, // Starts after "Hello" animation
+      delay: 1.2, // Starts after "Hello" animation
       duration: 0.7,
       ease: easeIn,
     },
@@ -184,7 +184,7 @@ export default function Hero() {
               clipPath: ["inset(0% 100% 0% 0%)", "inset(0% 0% 0% 0%)"],
             }}
             transition={{
-              duration: 1.5,
+              duration: 2, // Adjusted for smoother typing effect
               ease: "easeInOut",
             }}
             style={{
@@ -221,10 +221,11 @@ export default function Hero() {
           animate={animateIn2}
           className="text-white/40 text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6"
         >
-          A tagline or maybe description that fits a it maybe?
+          some small description connecting the tagline maybe.
         </motion.p>
       </div>
     </section>
   );
 }
+
 
