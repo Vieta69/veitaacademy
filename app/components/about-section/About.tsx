@@ -103,14 +103,14 @@ export default function About() {
 
       <div>
         <div className="text-white/60 text-base md:text-xl leading-8">
-          <AnimatedBody className="leading-[34px] md:leading-[39px] text-lg md:text-xl">
+          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl mb-8">
             <p>
               As a forward-thinking EdTech company, we are committed to empowering students with the knowledge and skills they need to succeed in an ever-evolving world. Our mission is to make quality education accessible, engaging, and impactful for learners everywhere.
             </p>
           </AnimatedBody>
 
-          <AnimatedBody className="leading-[34px] md:leading-[39px] text-lg md:text-xl">
-            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
+          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl">
+            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb-8">
               <b>Our Journey</b>
             </AnimatedBody>
             <p>
@@ -118,8 +118,8 @@ export default function About() {
             </p>
           </AnimatedBody>
 
-          <AnimatedBody className="leading-[34px] md:leading-[39px] text-lg md:text-xl">
-            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
+          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl">
+            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb-8">
               <b>Future Vision</b>
             </AnimatedBody>
             <p>
