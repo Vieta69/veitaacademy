@@ -129,7 +129,7 @@ export default function Hero() {
     opacity: [0, 1],
     y: ["1rem", "0px"],
     transition: {
-      delay: 1.5, // "Hello" delay
+      delay: 1, // Starts after "Hello" animation
       duration: 0.7,
       ease: easeIn,
     },
@@ -139,8 +139,8 @@ export default function Hero() {
     opacity: [0, 1],
     y: ["1rem", "0px"],
     transition: {
-      delay: 1.9, // Quicker follow-up after "Hello" (reduced from 2 to 1.9)
-      duration: 0.5, // Faster transition for "Vieta Academy"
+      delay: 2.5, // Slight delay for smoothness
+      duration: 0.5,
       ease: easeIn,
     },
   };
@@ -170,21 +170,40 @@ export default function Hero() {
       id="home"
     >
       <div className="text sm:w-[60%]">
+        {/* Typing animation for "Hello" */}
         <motion.div
           className="grid grid-cols-9 w-fit smm:flex gap-2 mb-2 xl:mb-6"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.1, ease: "easeOut" }}
         >
-          <p className="text-white/60 text-xl smm:text-2xl mb-3 smm:mb-0 lg:text-3xl col-span-6">
+          <motion.p
+            className="text-white/60 text-xl smm:text-2xl mb-3 smm:mb-0 lg:text-3xl col-span-6 typing-animation"
+            initial={{ opacity: 1 }}
+            animate={{
+              clipPath: ["inset(0% 100% 0% 0%)", "inset(0% 0% 0% 0%)"],
+            }}
+            transition={{
+              duration: 1.5,
+              ease: "easeInOut",
+            }}
+            style={{
+              display: "inline-block",
+              whiteSpace: "nowrap",
+              overflow: "hidden",
+              clipPath: "inset(0% 100% 0% 0%)",
+            }}
+          >
             Hello
-          </p>
+          </motion.p>
           <motion.div
             animate={handWaveAnimation}
             style={{ transformOrigin: "bottom right" }}
             className="col-span-3"
           ></motion.div>
         </motion.div>
+
+        {/* Vieta Academy Title */}
         <motion.h1
           className="text-[32px] smm:text-[40px] md:text-5xl lg:text-6xl xl:text-7xl leading-tight font-bold"
           initial={{ opacity: 0 }}
