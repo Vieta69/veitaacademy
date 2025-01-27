@@ -1,9 +1,9 @@
-// Make sure these imports are added at the top
-import Image from 'next/image'; // Import Image from next/image
-import Link from 'next/link'; // Import Link from next/link
-import { Icon } from 'lucide-react'; // Import Icon
-import { Tag } from '@/components/ui/tag'; // Make sure to adjust the import path for Tag
-import { useInView } from 'react-intersection-observer';
+"use client";
+ import { Icon } from "@iconify/react/dist/iconify.js";
+ import Image from "next/image";
+ import Link from "next/link";
+import React from "react";
+ import Tag from "./Tag";
 
 export default function FolioCard({
   title,
