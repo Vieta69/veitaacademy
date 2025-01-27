@@ -25,7 +25,7 @@ export default function FolioCard({
   stack: string[];
 }) {
   const { ref, inView } = useInView({
-    threshold: 0.3,
+    threshold: 0.2,
     rootMargin: "-100px 0px",
     triggerOnce: true,
   });
