@@ -103,13 +103,13 @@ export default function About() {
 
       <div>
         <div>
-          <AnimatedBody>
+          <AnimatedBody className="leading-[34px] md:leading-[39px]">
             <p>
               As a forward-thinking EdTech company, we are committed to empowering students with the knowledge and skills they need to succeed in an ever-evolving world. Our mission is to make quality education accessible, engaging, and impactful for learners everywhere.
             </p>
           </AnimatedBody>
 
-          <AnimatedBody>
+          <AnimatedBody className="leading-[34px] md:leading-[39px]">
               <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
              <b>Our Journey</b>
             </AnimatedBody>
@@ -118,7 +118,7 @@ export default function About() {
             </p>
           </AnimatedBody>
 
-          <AnimatedBody>
+          <AnimatedBody className="leading-[34px] md:leading-[39px]">
              <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
              <b>Future Vision</b>
             </AnimatedBody>
