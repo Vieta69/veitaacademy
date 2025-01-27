@@ -110,26 +110,30 @@ export default function About() {
           </AnimatedBody>
 
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            <h1><b>Our Journey</b></h1>
+              <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
+             <b>Our Journey</b>
+            </AnimatedBody>
             <p>
               We are starting our exciting venture by offering specialized preparation for the prestigious AMC (American Mathematics Competitions) series, including AMC 8, 10, and 12. These programs are designed to nurture mathematical curiosity, build problem-solving skills, and help students excel in competitive mathematics.
             </p>
           </AnimatedBody>
 
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            <h1>Our Vision for the Future</h1>
+             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
+             <b>What's Next?</b>
+            </AnimatedBody>
             <p>
-              At Vieta Academy, our vision goes beyond mathematics. As we grow, we plan to expand our offerings to include:
+              At Vieta Academy, our vision goes beyond mathematics. As we grow, we plan to expand ourselves  to include:
             </p>
-            <ul>
-              <li>AP Courses: Comprehensive courses designed to help students excel in Advanced Placement exams and gain college credits.</li>
-              <li>Technology Courses: Cutting-edge programs in web development, Python, Java, and more to prepare students for careers in the tech-driven world.</li>
+            <ul className="list-disc pl-6">
+              <li><strong>AP Courses:</strong> Comprehensive courses designed to help students excel in Advanced Placement exams and gain college credits.</li>
+              <li><strong>Technology Courses:</strong> Cutting-edge programs in web development, Python, Java, and more to prepare students for careers in the tech-driven world.</li>
             </ul>
           </AnimatedBody>
 
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Why Choose Vieta Academy?
+             <b>Why Choose Vieta Academy?</b>
             </AnimatedBody>
             <ul className="list-disc pl-6">
               <li><strong>Expert-Led Instruction:</strong> Learn from passionate educators and subject-matter experts dedicated to student success.</li>
