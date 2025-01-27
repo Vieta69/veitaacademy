@@ -118,12 +118,12 @@ export default function About() {
             </p>
           </AnimatedBody>
 
-          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl">
+          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl mb-8">
             <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb-8 text-3xl md:text-4xl">
               <b>Future Vision</b>
             </AnimatedBody>
             <p>
-              At Vieta Academy, our vision goes beyond mathematics. As we grow, we plan to expand ourselves  to include:
+              At Vieta Academy, our vision goes beyond mathematics. As we grow, we plan to expand ourselves to include:
             </p>
             <ul className="list-disc pl-6">
               <li><strong>AP Courses:</strong> Comprehensive courses designed to help students excel in Advanced Placement exams and gain college credits.</li>
@@ -131,11 +131,13 @@ export default function About() {
             </ul>
           </AnimatedBody>
 
-          <AnimatedBody>
-            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb 8 text-3xl md:text-4xl">
+          <AnimatedBody className="leading-[40px] md:leading-[45px] text-lg md:text-xl mb-8">
+            <AnimatedBody className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7] mb-8 text-3xl md:text-4xl">
               <b>Why Choose Vieta Academy?</b>
             </AnimatedBody> <p>
-            <ul className="list-disc pl-6">
+          
+                    <p>Because, why not?</p>
+                       <ul className="list-disc pl-6">
               <li><strong>Expert-Led Instruction:</strong> Learn from passionate educators and subject-matter experts dedicated to student success.</li>
               <li><strong>Interactive Learning:</strong> Our engaging content and innovative teaching methods make learning enjoyable and effective.</li>
               <li><strong>Comprehensive Resources:</strong> From detailed study materials to practice tests, we provide everything students need to achieve their goals.</li>
