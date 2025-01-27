@@ -92,8 +92,9 @@ export default function Works() {
       title: "Price Tag",
       liveLink: "",
       gitLink: "",
-      about: "Details about the course here!",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
+        img:"",
+      about: "Details about the bharwasauras course here. The extra space is for an image!",
+      stack: ["AMC 8", "AMC 10", "AMC 12", "Olympiads"],
     },
   ];
 
@@ -120,6 +121,7 @@ export default function Works() {
           // img={work.img}
           title={work.title}
           gitLink={work.gitLink}
+         img={work.img}
           liveLink={work.liveLink}
           about={work.about}
           stack={work.stack}
