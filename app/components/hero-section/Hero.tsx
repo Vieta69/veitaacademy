@@ -109,16 +109,8 @@
 // }
 
 "use client";
-import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import {
-  delay,
-  easeIn,
-  easeInOut,
-  motion,
-  useScroll,
-  useTransform,
-} from "framer-motion";
+import { easeIn, easeInOut, motion, useScroll, useTransform } from "framer-motion";
 // @ts-ignore
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
@@ -137,17 +129,19 @@ export default function Hero() {
     opacity: [0, 1],
     y: ["1rem", "0px"],
     transition: {
-      delay: 1.5,
-      duration: 0.3, // Reduced duration for faster transition
+      delay: 1.5, // "Hello" delay
+      duration: 0.7,
       ease: easeIn,
     },
   };
 
   const animateIn2 = {
-    ...animateIn1,
+    opacity: [0, 1],
+    y: ["1rem", "0px"],
     transition: {
-      ...animateIn1.transition,
-      delay: 1.8, // Adjusted to keep it in sync with animateIn1
+      delay: 1.9, // Quicker follow-up after "Hello" (reduced from 2 to 1.9)
+      duration: 0.5, // Faster transition for "Vieta Academy"
+      ease: easeIn,
     },
   };
 
@@ -172,17 +166,17 @@ export default function Hero() {
   return (
     <section
       ref={ref}
-      className="pt-36 sm:pt-0 flex flex-col sm:flex-row h-dvh items-center gap-4 sm:justify-between"
+      className="pt-36 sm:pt-0 flex flex-col sm:flex-row h-dvh items-center gap-6 sm:justify-between"
       id="home"
     >
       <div className="text sm:w-[60%]">
         <motion.div
-          className="grid grid-cols-9 w-fit smm:flex gap-2 mb-2 xl:mb-4"
+          className="grid grid-cols-9 w-fit smm:flex gap-2 mb-2 xl:mb-6"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.1, ease: "easeOut" }}
         >
-          <p className="text-white/60 text-xl smm:text-2xl mb-1 smm:mb-0 lg:text-3xl col-span-6">
+          <p className="text-white/60 text-xl smm:text-2xl mb-3 smm:mb-0 lg:text-3xl col-span-6">
             Hello
           </p>
           <motion.div
@@ -206,7 +200,7 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0 }}
           animate={animateIn2}
-          className="text-white/40 text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-4"
+          className="text-white/40 text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6"
         >
           currently focused on building user experiences that drive growth.
         </motion.p>
