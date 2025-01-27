@@ -9,8 +9,7 @@
 body {
 /* background: #08233b; */
 
-  background-image: url("../app/beautiful-shot-waterfall-forest.jpg")
-/* background: #320d1c; */
+ background: #320d1c; 
 
   color: white;
   overscroll-behavior: none;
