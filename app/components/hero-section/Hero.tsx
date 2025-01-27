@@ -213,7 +213,7 @@ export default function Hero() {
           <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
             Vieta Academy
           </span>
-          <p>Connecting</p>
+          <p>Aritra(Supreme God) Rohan(Doraemon) Agastya(Doraemon ka gaand lmao)</p>
         </motion.h1>
 
         <motion.p
@@ -227,5 +227,3 @@ export default function Hero() {
     </section>
   );
 }
-
-
