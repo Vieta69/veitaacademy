@@ -17,14 +17,11 @@ export default function Header() {
         <div className="flex justify-between items-center px-6 py-4 rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] mt-4 sm:mt-8 std-backdrop-blur">
           <Image
             src="/Untitled.svg"
-              width={32}
-              height={36}
+              width={62}
+              height={66}
             alt="logo"
             className="select-none"
-            fill className="object-contain"
-            
-            
-          />
+            />
           <Icon
             onClick={() => setMenuOpen(!menuOpen)}
             className="cursor-pointer flex sm:hidden text-2xl"
