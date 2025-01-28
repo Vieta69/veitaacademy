@@ -19,8 +19,8 @@ export default function Header() {
             src="/Untitled (2).png"
 {/*             width={32}
             height={36} */}
-           width={92}
-            height={96}
+           width={32}
+            height={36}
             alt="logo"
             className="select-none"
           />
