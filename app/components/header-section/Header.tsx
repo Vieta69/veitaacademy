@@ -13,14 +13,17 @@ export default function Header() {
 
   return (
     <>
-      <div className="fixed max-w-[90%] xl:max-w-[1223px] w-full z-10 select-none">
+      <div className="fixed max-w-[100%] xl:max-w-[1300px] w-full z-10 select-none">
         <div className="flex justify-between items-center px-6 py-4 rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] mt-4 sm:mt-8 std-backdrop-blur">
           <Image
             src="/Untitled.svg"
-              width={122}
-              height={126}
+              width={32}
+              height={36}
             alt="logo"
             className="select-none"
+            fill className="object-contain"
+            
+            
           />
           <Icon
             onClick={() => setMenuOpen(!menuOpen)}
