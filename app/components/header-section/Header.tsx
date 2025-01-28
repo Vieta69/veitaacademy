@@ -16,7 +16,7 @@ export default function Header() {
       <div className="fixed max-w-[90%] xl:max-w-[1223px] w-full z-10 select-none">
         <div className="flex justify-between items-center px-6 py-4 rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] mt-4 sm:mt-8 std-backdrop-blur">
           <Image
-            src="/Untitled (2).png"
+            src="/Untitled (4).png"
               width={92}
               height={96}
             alt="logo"
