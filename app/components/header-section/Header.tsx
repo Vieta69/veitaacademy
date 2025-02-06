@@ -16,7 +16,7 @@ export default function Header() {
       <div className="fixed max-w-[200%] xl:max-w-[2233px] w-full z-10 select-none">
         <div className="flex justify-between items-center px-6 py-4 rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] mt-4 sm:mt-8 std-backdrop-blur">
           <Image
-            src="/Untitled (1).svg"
+            src="../public/WhatsApp Image 2025-02-06 at 14.34.52_ace7aed0.jpg"
               width={102}
               height={36}
             alt="logo"
